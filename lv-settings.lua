@@ -34,6 +34,9 @@ O.python.autoformat = true
 O.python.diagnostics.virtual_text = true
 O.python.diagnostics.signs = true
 O.python.diagnostics.underline = true
+O.python.analysis.type_checking = "off"
+O.python.analysis.auto_search_paths = true
+O.python.analysis.use_library_code_types = true
 
 -- lua
 -- TODO look into stylua
@@ -49,4 +52,6 @@ O.tsserver.autoformat = true
 -- json
 O.json.autoformat = true
 
+-- ruby
+O.ruby.autoformat = true
 -- create custom autocommand field (This would be easy with lua)
